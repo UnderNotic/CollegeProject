@@ -3,6 +3,7 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: Georgia, Times, "Times New Roman", serif;
+  line-height: 1,7;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 body > .container{
-padding-top: 300px;
+padding-top: 220px;
 }
 
 .page-header{
@@ -34,7 +35,7 @@ background-color: #1863AD;
 color: white;
 padding-left: 90px;
 padding-bottom: 0px;
-padding-top: 100px;
+padding-top: 50px;
 margin-top: 0px;
 
 }
@@ -43,5 +44,18 @@ margin-top: 0px;
 padding-left: 30px;
 }
 
+.nav-tabs{
+  border-bottom:0px;
+}
 
+
+
+.nav-tabs > li > a:hover{
+border-color: #1863AD;
+color: #002E78;
+}
+.nav-tabs > li > a {
+border: 0px;
+color: white;
+  }
 
