@@ -17,19 +17,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 950px;
-  }
-}
 
 
 
 .navbar{
   background-color: #1863AD;
   color: white;
-  padding-left: 90px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .header-container{
@@ -48,13 +42,6 @@ h1,h2,h3,h4,h5,h6 {
   border: 0px;
   color: white;
 }
-
-.col-md-12{
-
-}
-
-
-
 
 html,
 body {
@@ -87,5 +74,14 @@ body {
     margin-right: -20px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px;
+  }
+  .navbar{
+    padding-left: 90px;
+    padding-top: 90px;
   }
 }
