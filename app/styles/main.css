@@ -2,11 +2,16 @@
 body {
   font-family: Georgia, Times, "Times New Roman", serif;
   line-height: 1,7;
+
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: bold;
+  color: #1863AD;
+}
+h1{
+  color: white;
 }
 
 /* Custom page footer */
@@ -17,6 +22,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Customize container */
+
+code{
+color: #1863AD;
+}
 
 
 
@@ -33,15 +42,23 @@ h1,h2,h3,h4,h5,h6 {
 .nav-tabs{
   border-bottom:0px;
 }
-
-.nav-tabs > li > a:hover{
-  border-color: #1863AD;
-  color: #002E78;
-}
 .nav-tabs > li > a {
   border: 0px;
+}
+.nav-tabs > li > a:link{
   color: white;
 }
+.nav-tabs > li > a:visited{
+  color: #002E78;
+  background-color: white;
+}
+.nav-tabs > li > a:hover{
+  color: #002E78;
+  background-color: white;
+}
+
+
+
 
 html,
 body {
@@ -82,6 +99,6 @@ body {
   }
   .navbar{
     padding-left: 90px;
-    padding-top: 90px;
+    padding-top: 70px;
   }
 }
