@@ -1,105 +1,100 @@
-
-/* Space out content a bit */
-body {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  line-height: 2,7;
-
+html,body {
+  height:100%;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: Verdana, Geneva, sans-serif;
-  font-weight: 200;
-  color: #1863AD;
-}
+
 h1{
-  color: white;
+font-size: 43px;
+}
+h2{
+font-size: 37px;
+}
+h3{
+font-size: 31px;
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0B0D1A;
 }
-
-/* Customize container */
-
-code{
-color: #1863AD;
+p, div {
+  font-family: 'Neuton', serif;
+  font-size: 22px;
+  color: #222;
 }
 
 
-
-.navbar{
-  background-color: #1863AD;
-  color: white;
-  padding-top: 10px;
-}
-
-.header-container{
-  padding-left: 30px;
-}
-
-.nav-tabs{
-  border-bottom:0px;
-}
-.nav-tabs > li > a {
-  border: 0px;
-}
-.nav-tabs > li > a:link{
-  color: white;
-}
-.nav-tabs > li > a:visited{
-  color: #002E78;
-  background-color: white;
-}
-.nav-tabs > li > a:hover{
-  color: #002E78;
-  background-color: white;
+h1{
+  color:#DDCCEE;
 }
 
 
 
-
-html,
-body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
 }
 
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by it's height */
-  margin: 0 auto -60px;
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
 }
 
-/* Set the fixed height of the footer here */
-#push,
-#footer {
-  height: 60px;
-}
-#footer {
-  background-color: #f5f5f5;
+.v-center {
+  margin-top:7%;
 }
 
-/* Lastly, apply responsive CSS fixes as necessary */
-@media (max-width: 767px) {
-  #footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+/*Custom names*/
+.main-title {
+  font-size: 54px;
+  color:#DDCCEE;
 }
-@media (min-width: 768px) {
-  .container {
-    max-width: 950px;
-  }
-  .navbar{
-    padding-left: 90px;
-    padding-top: 70px;
-  }
+
+.lead {
+  color:#DDCCEE;
+}
+
+
+.btn-lg {
+  font-size:28px;
+  border-color:#eeeeee;
+  padding:15px;
+  margin: 5px;
+  background-color:transparent;
+  color:#ffffff;
+}
+
+.btn-lg:hover {
+  background-color:#eeeeee;
+  color:#110022;
+}
+
+.btn-lg-text{
+  font-size:28px;
+  padding:15px;
+  line-height: 40px;
+  color:#ffffff;
+}
+
+.btn-lg-2{
+  .btn-lg();
+  font-size:45px;
+  border-color:#110022;
+  border-radius: 15px;
+  border-width: 5px;
+  padding:15px;
+  margin: 5px;
+  background-color:#ffffff;
+  color:#110022;
+}
+
+.btn-lg-2:hover{
+  /*border-color: #110022;
+*/  background-color:#110022;
+  color:#eeeeee;
 }
